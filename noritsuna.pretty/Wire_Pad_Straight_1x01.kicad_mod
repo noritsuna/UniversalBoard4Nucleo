@@ -1,0 +1,11 @@
+(module Wire_Pad_Straight_1x01 (layer F.Cu) (tedit 5746E69A)
+  (descr "Through hole Wire Pads")
+  (tags "Wire Pad")
+  (fp_text reference "" (at 0 -5.1) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value WirePads_Straight_1x01 (at 0 -3.1) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+)
